@@ -22,7 +22,7 @@ This creates thumbnails named `thumbnail-001.png`, `thumbnail-002.png`, `thumbna
 convert example.pdf thumbnails/thumbnail-%04d.png
 ```
 
-I found this trick [here](https://stackoverflow.com/a/5230727)
+I found this trick [here](https://stackoverflow.com/a/5230727).
 
 ## Thumbnails of different size
 
