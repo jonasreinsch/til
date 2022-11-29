@@ -24,3 +24,13 @@ convert example.pdf thumbnails/thumbnail-%04d.png
 
 I found this trick [here](https://stackoverflow.com/a/5230727)
 
+## Thumbnails of different size
+
+The following command writes thumbnails that are 350 pixels wide (keeping the aspect ratio)
+
+```bash
+convert -thumbnail x300 example.pdf thumbnail-%03d.png
+```
+
+See [this article](https://duncanlock.net/blog/2013/11/18/how-to-create-thumbnails-for-pdfs-with-imagemagick-on-linux/).
+
