@@ -1,4 +1,4 @@
-# How to generate thumbnails of all pages of a PDF with imagemagick
+# How to generate thumbnails of all pages of a PDF with Imagemagick
 
 Given a PDF `example.pdf`, I knew that it is possible to export the first page as a PNG with the Imagemagick `convert` command as follows:
 
